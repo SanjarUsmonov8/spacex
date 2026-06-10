@@ -64,7 +64,7 @@ export default function Hero() {
         <h1 className="text-3xl md:text-6xl font-bold uppercase tracking-tight leading-none drop-shadow-md -pt-50">
           Starship`s Thirteenth Flight Test
         </h1>
-        
+        <div className="pt-20"><a href="/starship"><div className="bg-black/60 w-25 h-12 flex items-center justify-center rounded-sm border-1 border-white/50"><h1 className="text-xs" >WATCH →</h1></div></a></div>
       </div>
     </div>
   );

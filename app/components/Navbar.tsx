@@ -71,14 +71,14 @@ export default function Navbar() {
                 </div>
 
                 {/* CATEGORY 3: STARLINK */}
-                <a href="https://terafab.ai/" target="_blank" rel="noopener noreferrer" className="pt-2 pb-4">
+                <a href="https://starlink.com/" target="_blank" rel="noopener noreferrer" className="pt-2 pb-4">
                     <h1>starlink</h1>
                 </a>
 
 
                 {/* CATEGORY 4: STARSHIELD */}
 
-                <a href="https://terafab.ai/" target="_blank" rel="noopener noreferrer" className="pt-2 pb-4">
+                <a href="https://www.spacex.com/starshield/" target="_blank" rel="noopener noreferrer" className="pt-2 pb-4">
                     <h1>starshield</h1>
                 </a>
 
