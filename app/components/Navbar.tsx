@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -35,7 +36,7 @@ export default function Navbar() {
                     : "bg-transparent"
                 }`}
         >
-            <img className="h-7 invert" src="https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png" alt="" />
+           <Link href="/"><img className="h-7 invert" src="https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png" alt="" /></Link>
 
             <div className="text-zinc-300 text-sm font-mono font-semibold flex justify-around w-[800px] uppercase">
 
@@ -48,10 +49,10 @@ export default function Navbar() {
                     <div className="absolute top-full left-1/2 -translate-x-1/2 hidden group-hover:block bg-gradient-to-b from-black/80 to-transparent -mt-16 pt-14 p-4 w-30 ">
                         <ul className="flex flex-col gap-3 normal-case text-white font-semibold font-normal text-x1 uppercase">
                             {/* You can now change these plain text <li> items into standard links */}
-                            <li className="hover:text-white transition-colors"><a href="/falcon9">starship</a></li>
-                            <li className="hover:text-white transition-colors"><a href="/falcon-heavy">dragon</a></li>
-                            <li className="hover:text-white transition-colors"><a href="/starship">falkon 9</a></li>
-                            <li className="hover:text-white transition-colors"><a href="/starship">falkon heavy</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/starship">starship</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/dragon">dragon</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/falcon9">falcon 9</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/falconheavy">falcon heavy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,11 +62,11 @@ export default function Navbar() {
                     <h1>Human Spaceflight</h1>
                     <div className="absolute top-full left-1/2 -translate-x-1/2 hidden group-hover:block bg-gradient-to-b from-black/80 to-transparent -mt-16 pt-14 p-4 min-w-[160px]">
                         <ul className="flex flex-col gap-3 normal-case text-white font-semibold font-normal text-x1 uppercase">
-                            <li className="hover:text-white transition-colors"><a href="/earth-orbit">overview</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/hs">overview</a></li>
                             <li className="hover:text-white transition-colors"><a href="/space-station">Space Station</a></li>
                             <li className="hover:text-white transition-colors"><a href="/starship">earth orbit</a></li>
                             <li className="hover:text-white transition-colors"><a href="/starship">the moon</a></li>
-                            <li className="hover:text-white transition-colors"><a href="/starship">mars & beyond</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/marsp">mars & beyond</a></li>
                         </ul>
                     </div>
                 </div>
