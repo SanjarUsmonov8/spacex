@@ -52,7 +52,7 @@ export default function Navbar() {
                             <li className="hover:text-white transition-colors"><a href="/starship">starship</a></li>
                             <li className="hover:text-white transition-colors"><a href="/dragon">dragon</a></li>
                             <li className="hover:text-white transition-colors"><a href="/falcon9">falcon 9</a></li>
-                            <li className="hover:text-white transition-colors"><a href="/falconheavy">falcon heavy</a></li>
+                            <li className="hover:text-white transition-colors"><a href="/fh">falcon heavy</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Suit from "../components/Suit";
 
@@ -46,6 +47,7 @@ export default function Falkon9() {
             </div>
             <div className="pt-20 bg-black"><img className="w-full" src="https://mlyn.by/app/uploads/2024/05/photo_2024-05-02_10-26-47.jpg" alt="" /></div>
             <div><Suit/></div>
+            <Footer/>
         </div>
     )
 }

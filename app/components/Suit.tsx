@@ -4,29 +4,29 @@ import { useState } from "react";
 
 export default function SuitHotspots() {
   const [activeDot, setActiveDot] = useState<number | null>(null);
-
+  
   // ADJUST POSITION COORDINATES HERE
   const dotsData = [
     {
       id: 1,
       top: "25%",  
       left: "48%", 
-      headline: "HELMET & VISOR DESIGN",
-      info: "Anti-glare visor system with custom dynamic tracking layers and integrated pressure sealing management specs.",
+      headline: "3-D Printed Helmet",
+      info: "The 3-D printed helmet with customized padding houses microphones for communication. and valves that regulate the suit’s pressure systems.",
     },
     {
       id: 2,
-      top: "52%",
-      left: "50%",
-      headline: "CHEST INTERFACE PLATFORM",
-      info: "Central hub managing primary vital telemetry feeds, core environmental controls, and umbilical systems connections.",
+      top: "45%",
+      left: "45%",
+      headline: "Outer Layer",
+      info: "The space suit’s outer layer is made with flame-resistant materials. Gray parts are different versions of Nomex and the white material is a Teflon fabric.",
     },
     {
       id: 3,
-      top: "75%",
-      left: "72%",
-      headline: "MANUAL ARTICULATION GLOVES",
-      info: "Custom fabricated materials offering high-dexterity manipulation over standard internal touchscreen display control interfaces.",
+      top: "55%",
+      left: "57%",
+      headline: "Touchscreen Compatible Gloves",
+      info: "The gloves are designed for easy use when the suit is pressurized and with the ability to operate Dragon’s touchscreens.",
     },
   ];
 
